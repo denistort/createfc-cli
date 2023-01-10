@@ -1,0 +1,29 @@
+{
+  "name": "createfc-cli",
+  "version": "1.0.0",
+  "description": "cli create function component template",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "createfc": "node ./src/index.js"
+  },
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": {
+    "name": "Denis Korablev",
+    "email": "denismakste@gmail.com",
+    "url": "https://github.com/denistort"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.19"
+  },
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}

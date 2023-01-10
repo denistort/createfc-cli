@@ -1,0 +1,1 @@
+export * from './{{componentName}}.component.tsx';
