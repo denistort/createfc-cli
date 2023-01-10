@@ -1,12 +1,12 @@
 {
-  "name": "createfc-cli",
+  "name": "create-fc",
   "version": "1.0.0",
   "description": "cli create function component template",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "createfc": "node ./src/index.js"
+    "create-fc-cli": "./src/index.js"
   },
   "repository": {
     "type": "git",
